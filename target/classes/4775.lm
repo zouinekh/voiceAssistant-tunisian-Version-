@@ -1,0 +1,94 @@
+Language model created by QuickLM on Sat May 28 14:18:36 EDT 2022
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 12 sentences and 20 words
+
+\data\
+ngram 1=20
+ngram 2=30
+ngram 3=21
+
+\1-grams:
+-0.8751 </s> -0.3010
+-0.8751 <s> -0.2389
+-1.9542 AASLEMA -0.2389
+-1.9542 ARE -0.2962
+-1.6532 CHROME -0.2389
+-1.9542 CLOSE -0.2913
+-1.9542 GOOD -0.2962
+-1.6532 GOOGLE -0.2389
+-1.9542 HELLO -0.2389
+-1.9542 HELP -0.2389
+-1.9542 JOB -0.2389
+-1.9542 KHADEM -0.2913
+-1.9542 MODE -0.2389
+-1.6532 OPEN -0.2863
+-1.9542 SAKER -0.2913
+-1.9542 STUDY -0.2962
+-1.9542 TA9ES -0.2389
+-1.9542 WHO -0.2962
+-1.9542 YOU -0.2389
+-1.9542 YOUTUBE -0.2389
+
+\2-grams:
+-1.3802 <s> AASLEMA 0.0000
+-1.3802 <s> CLOSE 0.0000
+-1.3802 <s> GOOD 0.0000
+-1.3802 <s> HELLO 0.0000
+-1.3802 <s> HELP 0.0000
+-1.3802 <s> KHADEM 0.0000
+-1.0792 <s> OPEN 0.0000
+-1.3802 <s> SAKER 0.0000
+-1.3802 <s> STUDY 0.0000
+-1.3802 <s> TA9ES 0.0000
+-1.3802 <s> WHO 0.0000
+-0.3010 AASLEMA </s> -0.3010
+-0.3010 ARE YOU 0.0000
+-0.3010 CHROME </s> -0.3010
+-0.3010 CLOSE CHROME 0.0000
+-0.3010 GOOD JOB 0.0000
+-0.3010 GOOGLE </s> -0.3010
+-0.3010 HELLO </s> -0.3010
+-0.3010 HELP </s> -0.3010
+-0.3010 JOB </s> -0.3010
+-0.3010 KHADEM GOOGLE 0.0000
+-0.3010 MODE </s> -0.3010
+-0.6021 OPEN CHROME 0.0000
+-0.6021 OPEN YOUTUBE 0.0000
+-0.3010 SAKER GOOGLE 0.0000
+-0.3010 STUDY MODE 0.0000
+-0.3010 TA9ES </s> -0.3010
+-0.3010 WHO ARE 0.0000
+-0.3010 YOU </s> -0.3010
+-0.3010 YOUTUBE </s> -0.3010
+
+\3-grams:
+-0.3010 <s> AASLEMA </s>
+-0.3010 <s> CLOSE CHROME
+-0.3010 <s> GOOD JOB
+-0.3010 <s> HELLO </s>
+-0.3010 <s> HELP </s>
+-0.3010 <s> KHADEM GOOGLE
+-0.6021 <s> OPEN CHROME
+-0.6021 <s> OPEN YOUTUBE
+-0.3010 <s> SAKER GOOGLE
+-0.3010 <s> STUDY MODE
+-0.3010 <s> TA9ES </s>
+-0.3010 <s> WHO ARE
+-0.3010 ARE YOU </s>
+-0.3010 CLOSE CHROME </s>
+-0.3010 GOOD JOB </s>
+-0.3010 KHADEM GOOGLE </s>
+-0.3010 OPEN CHROME </s>
+-0.3010 OPEN YOUTUBE </s>
+-0.3010 SAKER GOOGLE </s>
+-0.3010 STUDY MODE </s>
+-0.3010 WHO ARE YOU
+
+\end\

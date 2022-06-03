@@ -1,0 +1,11 @@
+open chrome
+close chrome
+open youtube
+khadem google
+saker google
+good job
+study mode
+aaslema
+hello 
+who are you
+help
